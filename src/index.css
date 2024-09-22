@@ -6,9 +6,15 @@
 
 html {
     --fallback-b1: #f4d04e;
+    height: 100%;
 }
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     font-family: 'Figtree', sans-serif;
+    padding: 24px;
     background-color: #f4d04e;
 }
